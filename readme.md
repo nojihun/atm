@@ -25,8 +25,12 @@
     
     
    ## 3. How to use 
-   fist. download all file
-   second. use 
+   use atm_api function in atm.py file
+   
+   fist. Please enter your card number instead of inserting your card
+   second. enter Pin number
+   third. you find account_number
+   fourth. you can choose atm function.deposit, send, withdrawal 
    
    
     
