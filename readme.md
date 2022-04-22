@@ -1,36 +1,31 @@
 
-  # ATM 기 구현
+  # ATM_machine
   
-  ## 1. python 으로 구현
-  ## 2. 각 파일 설명
+  ## 1.I use python
+  ## 2. file explanation
     atm.py
-    - atm 기가 구현되어있는 파일 atm class를 만들어서 만드는데 필요한 함수를 집어 넣었고 
-      atm_api 라는 함수를 집어 넣어서 atm기 처럼 작동하게 만듬
+    - File with ATM implementation 
+    I made an atm class and put in the function needed to make it.
+    Add a function called atm_api to make it work like an atm machine
 
     atm.json
-    - atm 기에 있는 지폐 잔액을 저장하였음.
-    지페는 100, 50, 20,10,5,2,1 달러 
+    - I save balalnce of atm_machine.
+     There are 100, 50, 20,10,5,2,1 dollar of kind of bills.
     
     card_pass.json
-    - 이 파일에는 카드 번호와 그에 필요한 비밀번호와 연동되는 계좌번호를 저장해놓았음
+    -This file contains the account number that is linked to the card number and the required pin password
     ex) {"credit":{"123456":1234, "123123":1234}, "account":{"123456":"20220420", "123123":"20220321"}}
-    credit 안에 있는 딕셔너리는 키가 카드 번호이고 값이 그 카드의 비밀번호이다.
-    account 안의 딕셔너리의 키는 카드의 번호이고 그 값은 카드와 연동되어 있는 계좌번호이다.
+    In credit, key is credit number and value is PIN number
+    In account, key is credit number and value is account number
     
     bank balance.json
-    - 이 파일에는 계좌 번호와 잔액을 적어두었다.
+    - This file contain the balance of an account
     ex)"20220420": 98100005239
-    키 값은 계좌번호이고 값은 잔액이다.
+    key is account number and value is balance
     
     
-   ## 3. 작동방법 
-   atm_api 함수를 작동 시킨다.
-   카드 삽입 대신 카드 번호를 입력한다.
-   비밀번호를 입력한다.
-   그러면 계좌 번호를  보여준다.
-   하고 싶은 일을 고른다.
-   한다.
-   끝
+   ## 3. How to use 
+   fist. download all file
    
    
     
