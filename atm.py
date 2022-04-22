@@ -8,7 +8,7 @@ with open(url2, 'r') as f:
 url3= 'atm.json'# atm 잔고
 with open(url3, 'r') as f:
     atm_balance = json.load(f)
-
+ 
 class ATM():
     def __init__(self):
         self.card_num = None 
