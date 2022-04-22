@@ -26,6 +26,7 @@
     
    ## 3. How to use 
    fist. download all file
+   second. use 
    
    
     
